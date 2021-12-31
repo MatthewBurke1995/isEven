@@ -5,3 +5,6 @@ docker run -it -p 5000:5000 --rm isEven:latest
 
 curl -X POST  -H "Content-Type: application/json" --data '[1]' http://0.0.0.0:5000/isEven
 '''
+
+TODO:
+[x] add docker github workflow
